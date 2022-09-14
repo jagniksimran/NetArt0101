@@ -1,6 +1,123 @@
-h1{
-    font-family : 'Combo', cursive;
+:root{
+    --black:#000000;
+    --white:#fff;
+    --m1:#f57200 ;
+    --m2:#7d2600 ;
+    --m3:#FF7900 ;
+    --m4:#FF9637 ;
+    --m5:#FFB570 ;
+    --m6:#ffd5ad;
+
 }
+
 *{
-    font-family: 'Oxygen', sans-serif;
+    font-family: ltc-globe-gothic,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+h1{
+    font-family: ltc-globe-gothic,sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+header{
+text-align: center;
+line-height: 1.7em;
+color:  var(--m1);
+text-shadow: var(--black);
+font-size:36px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+    background-color: var(--m6);
+    color:var(--m2);
+    font-size: 18px;
+    height: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    color: var(--m3);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--m4);
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--m3);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--m5);
+    text-decoration: underline;
+}
+
+p {
+	/* font-family: 'Raleway', sans-serif; */
+    margin-left: 100px;
+	font-style: normal; 
+	font-size: 14px;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+	line-height: 1.8em;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 18%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 10px;
+    left:auto;
+    text-align: right;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 120px; /* Place content 60px from the top */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-family: ltc-globe-gothic,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: var(--m1);
+    display:block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: var(--m5);
+    cursor: pointer;
+  }
+  
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+  }
+
+
+
+
+
+
+
+
+  
