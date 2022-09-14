@@ -1,0 +1,92 @@
+
+  @keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(236, 122, 73, 0.877);
+		transform: translatey(150px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(224, 130, 90, 0.877);
+		transform: translatey(-50px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(215, 114, 71, 0.734);
+		transform: translatey(150px);
+	}
+}
+
+
+.avatarA {
+	width: 124px;
+	height: 172px;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+    border-radius: 10%;
+	box-shadow: 0 5px 15px 0px rgba(235, 135, 92, 0.877);
+	transform: translatey(30px);
+    transform: rotateX(20);
+	animation: float 3s ease-in-out infinite;
+	img { width: 124px; height: 172px; }
+}
+.avatarB {
+	width: 124px;
+	height: 172px;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+    border-radius: 10%;
+	box-shadow: 0 5px 15px 0px rgba(235, 135, 92, 0.877);
+	transform: translatey(30px);
+    transform: rotateX(20);
+	animation: float 2s ease-in-out infinite;
+	img { width: 124px; height: 172px; }
+}
+.avatarC {
+	width: 124px;
+	height: 172px;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+    border-radius: 10%;
+	box-shadow: 0 5px 15px 0px rgba(235, 135, 92, 0.877);
+	transform: translatey(30px);
+    transform: rotateX(20);
+	animation: float 4s ease-in-out infinite;
+	img { width: 124px; height: 172px; }
+}
+.avatarD {
+	width: 124px;
+	height: 172px;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+    border-radius: 10%;
+	box-shadow: 0 5px 15px 0px rgba(235, 135, 92, 0.877);
+	transform: translatey(150px);
+    transform: rotateX(20);
+	animation: float 5s ease-in-out infinite;
+	img { width: 124px; height: 172px; }
+}
+.avatarE {
+	width: 124px;
+	height: 172px;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+    border-radius: 10%;
+	box-shadow: 0 5px 15px 0px rgba(235, 135, 92, 0.877);
+	transform: translatey(30px);
+    transform: rotateX(20);
+	animation: float 6s ease-in-out infinite;
+	img { width: 124px; height: 172px; }
+}
+#col{
+ column-count: 13;
+ column-gap: 4px;
+ column-span: all;
+ column-width: 100px;
+
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
